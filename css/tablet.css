@@ -1,0 +1,29 @@
+main
+.main-exchange-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main
+.main-tables-container {
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+main
+.main-product-detail
+.product-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+main
+.main-plans-container
+.plans-container--slider {
+    justify-content: center;
+    align-items: center;
+}

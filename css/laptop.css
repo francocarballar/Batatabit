@@ -1,0 +1,93 @@
+header 
+img {
+    width: 250px;
+    height: 48px;
+}
+header
+.header-title-container
+h1 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+header
+.header-title-container
+p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+main
+.main-exchange-container
+.background-img {
+    width: 300px;
+    height: 300px;
+}
+main
+.main-exchange-container
+.main-exchange-container--title
+h2 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+main
+.main-exchange-container
+.main-exchange-container--title
+p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+main
+.main-tables-container {
+    overflow-x: initial;
+}
+main
+.main-product-detail
+.product-detail--title
+h2 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+main
+.main-product-detail
+.product-detail--title
+p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+main
+.bitcoin-img-container
+h2 {
+    font-size: 6rem;
+    line-height: 6.2rem;
+}
+main
+.main-plans-container
+.plans--title
+h2 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+main
+.main-plans-container
+.plans--title
+p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+main
+.main-plans-container
+.plans-container--slider {
+    overflow-x: initial;
+}
+footer
+.left
+ul {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+footer
+.right
+figure
+img {
+    width: 100px;
+    height: 70px;
+}
