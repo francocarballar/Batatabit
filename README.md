@@ -4,6 +4,9 @@ Proyecto de maquetación basado en un prototipo de Figma, siguiendo la metodolog
 ## Ver está página:
 https://francocarballar.github.io/batatabit
 
+## Diseño en figma:
+https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A594
+
 ## Tecnologías utilizadas:
 - HTML
 - CSS
