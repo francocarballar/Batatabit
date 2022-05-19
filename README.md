@@ -2,7 +2,7 @@
 Proyecto de maquetación basado en un prototipo de Figma, siguiendo la metodología de mobile first. Se trata de una plataforma para comprar y vender criptomonedas.
 
 ## Ver está página:
-https://francocarballar.github.io/batatabit
+https://francocarballar.github.io/Batatabit
 
 ## Diseño en figma:
 https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A594
