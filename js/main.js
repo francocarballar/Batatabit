@@ -9,12 +9,8 @@ const secondSlick = document.querySelectorAll('.secondSlick')
 const mainTablesContainer = document.querySelector('.main-tables-container')
 const plansContainer = document.querySelector('.plans-container--slider')
 
-console.log('Funciona')
-
 const slickWidth = slick[0].offsetWidth - 14
 const secondSlickWidth = secondSlick[0].offsetWidth + 16
-console.log('Slick width: ', slickWidth)
-console.log('Second Slick width: ', secondSlickWidth)
 
 buttonPrev.onclick = () => Move(1)
 buttonNext.onclick = () => Move(2)
@@ -30,7 +26,6 @@ const Move = value => {
     : (leftPosition = parseFloat(track.style.left.slice(0, -2) * -1))
   if (leftPosition < trackWidth - mainTablesContainerWidth && value === 2) {
     track.style.left = `${-1 * (leftPosition + slickWidth)}px`
-    console.log('Calculo: ', -1 * (leftPosition + slickWidth))
   } else if (leftPosition > 0 && value === 1) {
     track.style.left = `${-1 * (leftPosition - slickWidth)}px`
   }
@@ -51,7 +46,6 @@ const secondMove = value => {
   secondTrack.style.left === ''
     ? (leftPosition = secondTrack.style.left = 0)
     : (leftPosition = parseFloat(secondTrack.style.left.slice(0, -2) * -1))
-  console.log('COndicional: ', secondTrackWidth - plansContainerWidth)
   if (leftPosition < secondTrackWidth - plansContainerWidth && value === 2) {
     secondTrack.style.left = `${-1 * (leftPosition + secondSlickWidth)}px`
   } else if (leftPosition === 0 && value === 1) {
